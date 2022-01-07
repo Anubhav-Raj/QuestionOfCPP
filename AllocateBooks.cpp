@@ -1,21 +1,7 @@
 //question: https://www.codingninjas.com/codestudio/problems/allocate-books_1090540?leftPanelTab=0
 
-bool isPossible(vector<int> arr,int n,int m,int mid){
-    int studentCount= 1;
-    int pageSum=0;
-     for(int i=0;i<n;i++){
-         if(pageSum+arr[i]<=mid){
-             pageSum=pageSum+arr[i];
-         }else{
-             studentCount++;
-              if(studentCount>m||arr[i]>mid){
-                  return false;
-              }
-             pageSum=arr[i];
-         }
-     }
-     return true;
-}
+#include<iostream>
+using namespace std;
 
 int allocateBooks(vector<int> arr, int n, int m) {
     // Write your code here.
@@ -36,3 +22,28 @@ int allocateBooks(vector<int> arr, int n, int m) {
      }
      return ans;
 }
+ 
+bool isPossible(vector<int> arr,int n,int m,int mid){
+    int studentCount= 1;
+    int pageSum=0;
+     for(int i=0;i<n;i++){
+         if(pageSum+arr[i]<=mid){
+             pageSum=pageSum+arr[i];
+         }else{
+             studentCount++;
+              if(studentCount>m||arr[i]>mid){
+                  return false;
+              }
+             pageSum=arr[i];
+         }
+     }
+     return true;
+}
+
+
+ int main(){
+     vector<int> arr;
+      int n,m;
+     allocateBooks(arr,m,n);
+
+ }

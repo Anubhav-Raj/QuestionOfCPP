@@ -5,13 +5,17 @@ using  namespace std;
 int main()
 {
     int n;
-     cout<<"Enter the size of number:";
+    // cout<<"Enter the size of number:";
      cin>>n;
       int arr[n];
-      cout<<"Enter the Element of array : ";
+      //cout<<"Enter the Element of array : ";
       for (int i = 0; i < n; i++)
       {
-          cin>>arr[i];
+           if(i<0){
+               return 0;
+           } else{
+                cin>>arr[i];
+           }
       }
        for (int j = 0; j < n-1; j++)
        {
@@ -33,12 +37,13 @@ int main()
                   }
             
        }
-       cout<<"Shorted  Array is:[";
+      // cout<<"Shorted  Array is:[";
         for (int l = 0; l < n; l++)
         {
+            
              cout<<arr[l]<<" ";
         }
-        cout<<"]";
+       // cout<<"]";
         
        
       

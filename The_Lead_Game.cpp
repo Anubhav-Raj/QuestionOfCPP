@@ -1,4 +1,4 @@
-The Lead Game
+/*The Lead Game
 The game of billiards involves two players knocking 3 balls around on a green baize table. Well, there is more to it, but for our purposes this is sufficient.
 
 The game consists of several rounds and in each round both players obtain a score, based on how well they played. Once all the rounds have been played, the total score of each player is determined by adding up the scores in all the rounds and the player with the higher total score is declared the winner.
@@ -55,7 +55,7 @@ Output:
  96   45
  output:
  2 28
- 
+ */
  
 //--------------------------------- solution  ---------------------------------------------
 #include <iostream>

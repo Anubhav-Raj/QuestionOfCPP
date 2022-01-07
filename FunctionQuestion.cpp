@@ -1,4 +1,4 @@
-1 home work Question:
+//1 home work Question:
 #include <iostream>
 using namespace std;
 int ap(int a){
@@ -10,8 +10,7 @@ int main(){
     cout<<" nth tern is "<<ap(n)<<endl;
     return 0;
 }
-2. homework Question:
- method  one:
+//2. homework Question: method  one:
  #include <iostream>
 using namespace std;
  int bits(int a){ 

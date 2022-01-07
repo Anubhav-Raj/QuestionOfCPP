@@ -1,4 +1,4 @@
-Problem Description:
+/*Problem Description:
 Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. The objective of the puzzle is to move all disks from source rod to destination rod using third rod (say auxiliary). The rules are :
 1) Only one disk can be moved at a time.
 2) A disk can be moved only if it is on the top of a rod.
@@ -34,6 +34,8 @@ a c
 b a
 b c
 a c
+
+*/
 //Solution 
 #include<iostream>
 using namespace std;

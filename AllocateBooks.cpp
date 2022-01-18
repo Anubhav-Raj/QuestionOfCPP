@@ -1,6 +1,7 @@
 //question: https://www.codingninjas.com/codestudio/problems/allocate-books_1090540?leftPanelTab=0
 
 #include<iostream>
+#include<vector>
 using namespace std;
 
 int allocateBooks(vector<int> arr, int n, int m) {
@@ -39,7 +40,6 @@ bool isPossible(vector<int> arr,int n,int m,int mid){
      }
      return true;
 }
-
 
  int main(){
      vector<int> arr;

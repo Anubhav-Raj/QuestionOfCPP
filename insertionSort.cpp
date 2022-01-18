@@ -7,19 +7,24 @@ int main()
      cin>>n;
       int arr[n];
       cout<<"Enter the Element of array : ";
-      for (int i = 0; i < n; i++)
-      {
+      for (int i = 0; i < n; i++){
           cin>>arr[i];
       }
-        
-       for (int j = 1; j < n; j++)
-       {
-           for (int k = 0; i < count; i++)
-           {
-               /* code */
+     for(int i=1;i<n;i++){
+           int temp=arr[i];
+           int j;
+            for(j=i-1;j>=0;j--){
+           if(arr[j]>temp){
+                arr[j+1]=arr[j];
+           } else{
+               break;
            }
-           
-          
+                
+          }
+           arr[j+1]=temp;
+      }
+       for (int i = 0; i < n; i++){
+           cout<<arr[i]<<" ";
        }
        
 }

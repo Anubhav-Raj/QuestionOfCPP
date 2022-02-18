@@ -1,0 +1,1 @@
+{"name":"Local: RotateArray","url":"e:\\cPlusePluse(github)\\QuestionOfCPP\\RotateArray.cpp","tests":[{"id":1643186660426,"input":"8\n7 5 2 11 2 43 1 1\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cPlusePluse(github)\\QuestionOfCPP\\RotateArray.cpp","group":"local","local":true}

@@ -7,8 +7,9 @@ using namespace std;
          int mid=s+(e-s)/2;
          int len1=mid-s+1;
          int len2=e-mid;
-         int *first=new int[len1];
-         int *second=new int[len2];
+
+         int *first=new int[len1];// copy one half  of array  into  this
+         int *second=new int[len2];//  copy second part of array into this
         
            // copy value 
             int k=s;

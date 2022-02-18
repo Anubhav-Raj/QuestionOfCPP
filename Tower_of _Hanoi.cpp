@@ -61,6 +61,6 @@ using namespace std;
  }
  
 // watch this for batter understanding
-https://upload.wikimedia.org/wikipedia/commons/6/60/Tower_of_Hanoi_4.gif
+//https://upload.wikimedia.org/wikipedia/commons/6/60/Tower_of_Hanoi_4.gif
  
  

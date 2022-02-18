@@ -41,13 +41,15 @@ int main() {
    int t;
    cin>>t;
    while(t--){
-    int  arr[3];
-      for(int i=0;i<3; i++){ 
+         int n;
+          cin>>n;
+         long int  arr[n];
+      for(int i=0;i<n; i++){ 
           cin>>arr[i];
           
       }
           int max1=0,max2=0;
-            for(int i=0; i<3; i++)
+            for(int i=0; i<n; i++)
             {
                  if(arr[i]>max1 && arr[i]>max2)
                  {

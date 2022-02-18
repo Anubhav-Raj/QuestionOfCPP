@@ -1,0 +1,1 @@
+{"name":"Local: SubsequencesString","url":"e:\\cPlusePluse(github)\\QuestionOfCPP\\Lecture37\\SubsequencesString.cpp","tests":[{"id":1642519247277,"input":"abc","output":"a ab abc ac b bc c"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cPlusePluse(github)\\QuestionOfCPP\\Lecture37\\SubsequencesString.cpp","group":"local","local":true}

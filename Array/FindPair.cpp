@@ -15,7 +15,7 @@ int main()
   cin >> target;
 
   sort(g1.begin(), g1.end());
-     
+      int count=0;
   int s = 0, e = g1.size() - 1;
      while (s<=e){
         if(target>g1[s]+g1[e]){
@@ -23,11 +23,13 @@ int main()
         }else if(target<g1[s]+g1[e]){
            e--;
         } else{
-           cout<<g1[s]<<" "<<g1[e];
-            break;
+          // cout<<g1[s]<<" "<<g1[e];
+           count++;
+            //break;
         }
 
      }
+      cout<<count<<endl;
      
     
 

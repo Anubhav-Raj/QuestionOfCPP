@@ -1,1 +1,1 @@
- 
+  v.color = "Blue";
